@@ -1,6 +1,12 @@
 ﻿# Clear console
 Clear
 
+# Display Title
+Write-Host ("=============================================================================")
+Write-Host ("VED Start Date Calculator")
+Write-Host ("The expiry date can be found via the DVLA site vehicleenquiry.service.gov.uk")
+Write-Host ("=============================================================================")
+
 # Get user inputs
 $expiryDay = Read-Host("Enter the expiry day")
 $expiryMonth = Read-Host("Enter the expiry month")
