@@ -25,6 +25,9 @@ $startDate = (($expiryDate.AddYears(-5).AddDays(1)))
 $expiryDateFormatted = ($expiryDate).toString("dd/MM/yyyy", $cultureENGB)
 $startDateFormatted = ($startDate).toString("dd/MM/yyyy", $cultureENGB)
 
+# Clear console
+Clear
+
 # Display outputs to console
 Write-Host ("========================================")
 Write-Host ("Start Date  = " + $startDateFormatted)
